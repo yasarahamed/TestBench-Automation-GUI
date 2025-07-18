@@ -38,4 +38,5 @@ Run Command
 ------------------------------------------
 
 export DISPLAY=host.docker.internal:0  # Set DISPLAY variable for Docker
+
 docker run -it --rm -e DISPLAY=$DISPLAY image_name
